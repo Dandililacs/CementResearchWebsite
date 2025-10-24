@@ -147,7 +147,6 @@ img{
 .Intro1{
     display: flex;
     margin: 50px;
-    background-color: rgba(48, 48, 48, 30%);
 
 }
 .Intro2{
@@ -196,4 +195,7 @@ a:link{
     padding-left: 40px;
     padding-right: 40px;
     list-style-type: none;
+}
+.homepageIntro{
+    background-color: rgba(48, 48, 48, 50%);
 }
