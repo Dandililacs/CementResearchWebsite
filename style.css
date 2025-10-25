@@ -124,6 +124,7 @@ img{
     padding-left: 40px;
     padding-right: 40px;
     list-style-type: none;
+    text-decoration: none;
 }
 .entry:hover{
     transform: scale(1.1);
@@ -131,8 +132,9 @@ img{
 .buttoning a{
     color: rgb(208, 231, 242);
 }
-.entry a{
+entry a{
     color: aliceblue;
+    text-decoration: none;
 }
 .teamIntro{
     background-color:#303030;
@@ -204,11 +206,16 @@ a:link{
     color: aliceblue;
     display: block;
     padding: 10px;
+    line-height:1.4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .introImg{
     padding: 20px;
 }
-.a:visited{
+a:visited{
     color: aliceblue;
 
+}
+.homepageIntro:p{
+    font-size: ;
 }
