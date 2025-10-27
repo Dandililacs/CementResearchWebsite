@@ -1,9 +1,10 @@
+
 body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
     height: 100%;
-    font-family: "BBH Sans Bartle", sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-weight: 400;
     font-style: normal;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5T980zlRYhbWX1D1MllCGTd2gjANoVtrZ0HVwMzIQNLqpsRQ:https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4NTkyMDAwLWltYWdlLWt3dnhuYnV4LmpwZw.jpg&s);
@@ -118,11 +119,8 @@ img{
     transition: transform 600ms ease;
     width: 20%;
     height: 20%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding:10px;
     margin: 1rem;
-    padding-left: 40px;
-    padding-right: 40px;
     list-style-type: none;
     text-decoration: none;
 }
@@ -212,6 +210,8 @@ a:link{
     padding-top: 0px;
     font-size:larger;
     width: 80%;
+    align-content: center;
+    align-items: center;
 }
 .introImg{
     padding: 40px;
@@ -222,4 +222,36 @@ a:link{
 a:visited{
     color: aliceblue;
 
+}
+.learnButton{
+    color: azure;
+    background-color: #303030;
+    border-radius: 0.5rem;
+    padding: 20px;
+    width: 80%;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: large;
+
+}
+.Intro2{
+    margin-bottom: -250px;
+}
+.logo{
+    font-family: "Rubik Burned", system-ui;
+    font-weight: 800px;
+    font-style: normal;
+    font-size:40px;
+    margin: -3%;
+    background-color:#808080;
+    width:100%;
+}
+.profilePsakerBody{
+    width: 1000px;
+    flex-direction: left;
+    display: inline-float;
+}
+.profilePsakerPicture{
+    align-self: left;
+    
 }
