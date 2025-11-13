@@ -255,3 +255,28 @@ a:visited{
     align-self: left;
     
 }
+.entryImg{
+    background-color: rgb(53, 56, 68);
+    border-radius: 1rem;
+    color: aliceblue;
+    display: flex;
+    flex-direction:column;
+ 
+    transition: transform 600ms ease;
+    width: 85%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 1rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    list-style-type: none;
+}
+.journalEntriesMed{
+    background-color:#303030;
+    border-radius: 1rem;
+    width: 95%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
